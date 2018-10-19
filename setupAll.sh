@@ -21,8 +21,4 @@ mkdir -p $DOWNLOADS
 ## MongoDB
 ./mongodb/setup.sh $BENCHMARK $DBFOLDER $TMP
 
-## ArangoDB
-./arangodb/setup.sh $BENCHMARK $DBFOLDER $TMP
-sleep 5
-./arangodb_mmfiles/setup.sh $BENCHMARK $DBFOLDER $TMP
 
